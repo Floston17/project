@@ -1,0 +1,457 @@
+/*Header*/
+
+#header {
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap row;
+    align-items: center;
+    margin: 10px 50px;
+}
+
+.register-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap row;
+}
+
+.link {
+    margin: 10px;
+    text-decoration: none;
+    color: #42AAFF;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h3 {
+    color: #007FFF;
+    margin-right: 20px;
+}
+
+/*header's end*/
+
+/*nav*/
+
+#search-form {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-input {
+    margin: 20px;
+    padding: 5px;
+    width: 30vw;
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    font: 1.2rem Arial, SansSerif;
+    text-align: center;
+}
+
+.button {
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    color: #42AAFF;
+    font: 1.2rem Arial, SansSerif;
+}
+
+#feedback {
+    text-align: center;
+    font-size: 1.3rem;
+    color: blue;
+}
+
+/*end of nav*/
+
+/*main*/
+
+h1 {
+    text-align: center;
+}
+
+#movie-cards {
+    background-color: #77DDE7;
+    border-radius: 50px;
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.container {
+    position: relative;
+}
+
+.movie-link {
+    text-decoration: none;
+}
+
+.movie-card {
+    width: 70vmin;
+    height: 50vmin;
+    background-color: #F1F1F1;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.movie-card:hover {
+    background-color: #D3D3D3;
+    transition: background-color 500ms linear;
+}
+
+.movie-poster {
+    height: 100%;
+    max-width: 50%;
+    border-radius: 20px;
+}
+
+.list {
+    flex-grow: 2;
+    color: black;
+}
+
+h4 {
+    text-align: center;
+    margin: 0 5px;
+}
+
+#add-form {
+    height: 35px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+#add-button {
+    height: 100%;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+#added-paragraph {
+    color: #007FFF;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 1.1rem;
+}
+
+#delete-form {
+    height: 35px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+#delete-button {
+    height: 100%;
+    border-radius: 10px;
+}
+
+/*main's end*/
+
+/* Pagination */
+
+#paginate-form {
+    margin-bottom: 50px;
+    height: 80px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #007FFF;
+    font-size: 1.2em;
+}
+
+#paginate-paragraph {
+    margin-top: 0;
+}
+
+#page-input {
+    margin-right: 20px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#paginate-button {
+    height: 30px;
+    width: 75px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Pagination's end */
+
+/*footer*/
+
+#footer {
+    background-color: #007FFF;
+    height: 100px;
+    width: 95vw;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+footer p {
+    padding: 50px;
+
+}
+
+/*footer's end*/
+
+/*login and register page*/
+
+.login-page {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-input {
+    margin: 20px;
+    padding: 5px;
+    width: 400px;
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    font: 1.2rem Arial, SansSerif;
+    text-align: center;
+}
+
+.submit-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    color: #42AAFF;
+    font: 1.2rem Arial, SansSerif;
+}
+
+.error {
+    margin: 0;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    font: 1.2rem Arial, SansSerif;
+}
+
+#register {
+    text-align: center;
+}
+
+/*login and register page - end*/
+
+/*show page*/
+
+#movie-title {
+    text-align: center;
+}
+
+.movie-page {
+    border: 2px solid;
+    border-radius: 20px;
+    width: 60vmax;
+    margin-inline: auto;
+    margin-top: 10px;
+    background-color: #F1F1F1;
+}
+
+.movie-card-single {
+    padding-top: 10px;
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.movie-poster-single {
+    height: 100%;
+    border-radius: 20px;
+}
+
+#movie-list {
+    color: black;
+    font: 1.2rem SansSerif;
+}
+
+#movie-plot {
+    margin: 30px;
+    color: black;
+    font: 1.2rem SansSerif;
+}
+
+section h2 {
+    text-align: center;
+}
+
+hr {
+    margin-inline: 40px;
+}
+
+#comment-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#user-logo {
+    margin-right: 30px;
+}
+
+#comment-paragraphs {
+    padding: 20px;
+}
+
+#comment-delete-form {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+#comment-delete-button {
+    width: 75px;
+    height: 25px;
+    color: #007FFF;
+    border-radius: 5px;
+}
+
+#comment-text {
+    width: 80%;
+    height: 70px;
+    padding-inline: 20px;
+    margin-bottom: 20px;
+    font: 1.2rem SansSerif;
+    border-radius: 10px;
+    text-align: start;
+}
+
+#comment-add-form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#comment-add-button {
+    background-color: whitesmoke;
+    width: 200px;
+    height: 35px;
+    margin-bottom: 20px;
+    color: #77DDE7;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+/*show page end*/
+
+/* Small screen width*/
+
+@media only screen
+and (max-width: 600px) {
+
+    #header {
+        justify-content: space-around;
+    }
+
+    #movie-cards {
+        margin: 20px 5px 5px 5px;
+        border-radius: 10px;
+    }
+
+    .movie-card {
+        margin: 5px;
+        width: 85vmin;
+    }
+
+    .movie-page {
+        width: 90vmin;
+    }
+
+    #paginate-form {
+        margin-top: 20px;
+    }
+
+    .login-input {
+        width: 90vw;
+    }
+
+    #delete-form {
+        bottom: 4%;
+        right: 4%;
+        height: 25px;
+    }
+
+    #user-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    #comment-list {
+        list-style-type: none;
+        display: inherit;
+    }
+
+    #comment-paragraphs {
+        padding: 0 10px 15px 0;
+    }
+
+    #added-paragraph {
+        top: 4%;
+        right: 4%;
+        font-size: 12px;
+    }
+
+    #image-container {
+        float: left;
+    }
+
+    #add-form {
+        top: 4%;
+        right: 4%;
+        height: 25px;
+    }
+
+    #add-button {
+        font-size: 12px;
+    }
+
+    .login-page {
+        height: inherit;
+        display: inherit;
+    }
+
+}
+
+
+@media only screen
+and (max-width: 900px) {
+    #search-form {
+        flex-flow: column;
+    }
+
+    #search-input {
+        width: 70vw;
+    }
+}
